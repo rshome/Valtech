@@ -6,7 +6,7 @@ using ValtechRickyShome;
 namespace Valtech
 {
     [Binding]
-    public class LatestNewsSteps
+    public class ValtechSteps
     {
 
         Reference refClass = new Reference();

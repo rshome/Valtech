@@ -10,7 +10,7 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace Valtech
+namespace Valtech.Features
 {
     using TechTalk.SpecFlow;
     
@@ -48,7 +48,7 @@ namespace Valtech
             if (((testRunner.FeatureContext != null) 
                         && (testRunner.FeatureContext.FeatureInfo.Title != "ValtechHomePage")))
             {
-                Valtech.ValtechHomePageFeature.FeatureSetup(null);
+                Valtech.Features.ValtechHomePageFeature.FeatureSetup(null);
             }
         }
         

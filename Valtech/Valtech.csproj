@@ -58,17 +58,17 @@
     <Compile Include="Steps\OfficesSteps.cs" />
     <Compile Include="Steps\PagesSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Valtech.feature.cs">
+    <Compile Include="Features\Valtech.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Valtech.feature</DependentUpon>
     </Compile>
-    <Compile Include="Reference.cs" />
+    <Compile Include="Fixtures\Reference.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <None Include="Valtech.feature">
+    <None Include="Features\Valtech.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>Valtech.feature.cs</LastGenOutput>
     </None>
