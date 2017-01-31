@@ -16,7 +16,7 @@ namespace ValtechRickyShome
 
         public static IWebDriver driver { get; set; }
 
-        public static void Initialize()
+        public void Initialize()
         {
             driver = new FirefoxDriver();
         }
@@ -41,6 +41,11 @@ namespace ValtechRickyShome
         public void MethodWait()
         {
             driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
+        }
+
+        public void Exit()
+        {
+            driver.Quit();
         }
 
  

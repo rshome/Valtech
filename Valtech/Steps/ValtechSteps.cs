@@ -14,13 +14,13 @@ namespace Valtech
         [BeforeScenario("smoke")]
         public void Setup()
         {
-            Reference.Initialize();
+            refClass.Initialize();            
         }
 
         [AfterScenario("smoke")]
         public void TearDown()
         {
-            Reference.driver.Quit();
+            refClass.Exit();            
         }
 
         [Given(@"I am on the Valtech Homepage")]

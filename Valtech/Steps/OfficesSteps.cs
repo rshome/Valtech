@@ -17,13 +17,13 @@ namespace Valtech
         [BeforeScenario("Offices")]
         public void Setup()
         {
-            Reference.Initialize();
+            refClass.Initialize();            
         }
 
         [AfterScenario("Offices")]
         public void TearDown()
         {
-            Reference.driver.Quit();
+            refClass.Exit();
         }
 
         [When(@"I view the Contact Us Page")]

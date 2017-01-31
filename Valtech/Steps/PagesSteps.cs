@@ -14,13 +14,13 @@ namespace Valtech
         [BeforeScenario("Pages")]
         public void Setup()
         {
-            Reference.Initialize();
+            refClass.Initialize();            
         }
 
         [AfterScenario("Pages")]
         public void TearDown()
         {
-            Reference.driver.Quit();
+            refClass.Exit();
         }
 
 
