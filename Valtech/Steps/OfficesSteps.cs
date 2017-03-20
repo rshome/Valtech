@@ -29,7 +29,7 @@ namespace Valtech
         [When(@"I view the Contact Us Page")]
         public void WhenIViewTheContactUsPage()
         {
-            Reference.driver.Navigate().GoToUrl(Reference.BaseAddress + "investors/contact-us");
+            Reference.driver.Navigate().GoToUrl(Reference.BaseAddress + "about/contact-us");
         }
 
 

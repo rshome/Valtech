@@ -168,14 +168,14 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("View Offices: 29")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("View Offices: 31")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "ValtechHomePage")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestCategoryAttribute("Offices")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "29")]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Offices", "29")]
-        public virtual void ViewOffices_29()
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("VariantName", "31")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("Parameter:Offices", "31")]
+        public virtual void ViewOffices_31()
         {
-            this.ViewOffices("29", ((string[])(null)));
+            this.ViewOffices("31", ((string[])(null)));
 #line hidden
         }
     }

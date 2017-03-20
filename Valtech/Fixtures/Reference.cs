@@ -2,6 +2,7 @@
 using OpenQA.Selenium;
 using TechTalk.SpecFlow;
 using System;
+using OpenQA.Selenium.Chrome;
 
 namespace ValtechRickyShome
 {
@@ -18,7 +19,7 @@ namespace ValtechRickyShome
 
         public void Initialize()
         {
-            driver = new FirefoxDriver();
+            driver = new ChromeDriver();
         }
 
         public void GotoUrl()
@@ -40,7 +41,7 @@ namespace ValtechRickyShome
 
         public void MethodWait()
         {
-            driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
+             driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
         }
 
         public void Exit()
